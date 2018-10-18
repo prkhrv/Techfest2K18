@@ -1,0 +1,196 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.navigator
+{
+	color: white;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 2px 2px 30px rgb(160,226,236);
+}
+.txt-sml
+{
+	margin-top: 30px;
+	height: 35px;
+	width: 300px;
+	padding: 10px;
+	border: 0.01em solid rgba(24, 116, 205,0.8);
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	background-color: transparent;
+}
+::-webkit-input-placeholder
+{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.select
+{
+	margin-top: 30px;
+	height: 35px;
+	width: 300px;
+	border: 0.01em solid rgba(24, 116, 205,0.8);
+	font-family: 'Audiowide', cursive;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	background-color: transparent;
+}
+.select option
+{
+	color: black;
+}
+.select:hover
+{
+	outline: none;
+}
+.btn-sml
+{
+	height: 35px;
+	width: 200px;
+	border: 0px;
+	background-color: white;
+	margin-top:20px;
+	font-family: 'Audiowide', cursive;
+	font-size: 17px;
+}
+.btn-sml:focus
+{
+	outline: none;
+}
+.txt-sml:focus
+{
+	outline: none;
+}
+.event-cont
+{
+	margin: auto;
+	display: relative;
+	margin-top: 30px;
+	max-width: 650px;
+	max-height: 350px;
+	overflow-y: auto;
+}
+.event-linker
+{
+	height:120px;
+	width: 120px;
+	background-color: rgba(255,255,255,0.1);
+	border: 5px double rgba(255,255,255,0.1);
+	color: white;
+	font-family: 'Audiowide', cursive;
+	display: inline;
+	padding-bottom: 0px;
+}
+.item h3
+{
+	font-family: 'Audiowide', cursive;
+	color: white;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 30px rgb(160,226,236); 
+}
+.item ul
+{
+	list-style: none;
+	margin-top: 20px;
+	text-align: left;
+	display: inline-block;
+}
+.event_overview
+{
+	height: 250px;
+    overflow-y: scroll;
+}
+.item ul li
+{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: left;
+}
+.register
+{
+	border: 0px;
+	background-color: white;
+	padding:10px;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	height: 25px;
+	margin-right: 10px;
+}
+.back
+{
+	height: 35px;
+	width: 35px;
+	background-color: white;
+	font-family: 'Audiowide', cursive;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	border: 0px;
+	border-radius: 50%;
+	font-weight: bolder;
+}
+.back:focus
+{
+	outline: none;
+	margin-right: 10px;
+}
+.dev-cont .prof-pic
+{
+	height: 250px;
+	border: 1px solid rgba(24, 116, 205,0.4);
+	padding:5px;
+}
+.dev-cont
+{
+	text-align: center;
+}
+.dev-cont .col-sm-6
+{
+	color: white;
+	font-family: 'Audiowide', cursive;
+}
+.social-links a
+{
+	color: white;
+	margin-left: 10px;
+}
+.match_table
+{
+	margin: auto;
+	width: 800px;
+	height:250px;
+	overflow-y: scroll;
+	color: white;
+}
+.match_table table
+{
+	border: 1px solid white;
+	padding: 10px;
+	width: 100%;
+}
+.match_table table tr
+{
+	padding: 10px;
+}
+.match_table table tr td
+{
+	padding: 10px;
+}
