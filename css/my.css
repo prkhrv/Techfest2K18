@@ -21,10 +21,13 @@ body{
  top: -145px;
 }
 
+
+
 #logo{
 	margin-left: 35px;
 	margin-top: 10px;
 }
+
 
 @keyframes noise-anim {
   0% {
