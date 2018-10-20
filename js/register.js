@@ -1,8 +1,10 @@
 var questions = [
-  {question:"What's your first name?"},
-  {question:"What's your last name?"},
-  {question:"What's your email?", pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/},
-  {question:"Create your password", type: "password"}
+  {question:"What's your team name?"},
+  {question:"How many members do you have?",type: "number"},
+  {question:"What's the name of Member-1?(If you don't have a team Enter NONE)"},
+  {question:"what's the name of Member-2?(If you don't have a team Enter NONE)"},
+  {question:"what's the name of Member-3?(If you don't have a team Enter NONE)"},
+  {question:"what's the name of Member-4?(If you don't have a team Enter NONE)"}
 ]
 
 /**********
@@ -60,7 +62,7 @@ var questions = [
     
     // add the h1 at the end with the welcome text
     var h1 = document.createElement('h1')
-    h1.appendChild(document.createTextNode('Welcome ' + questions[0].value + '!'))
+    h1.appendChild(document.createTextNode('Registration Succesfull ' + questions[0].value + '!'+'Press the Home button to return to the home screen'))
     setTimeout(function() {
       register.parentElement.appendChild(h1)     
       setTimeout(function() {h1.style.opacity = 1}, 50)

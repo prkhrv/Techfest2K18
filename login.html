@@ -10,12 +10,12 @@
   <link rel="shortcut icon" href="">
 	<link rel="stylesheet" type="text/css" href="css/my.css">
 	<link rel="stylesheet" type="text/css" href="css/arc.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/register.css">
+	<link rel="stylesheet" type="text/css" href="css/style-event.css">
   <link rel="stylesheet" type="text/css" href="css/home.css">
-
+  <link rel="stylesheet" type="text/css" href="css/login.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
   integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
 
 </head>
 <body>
@@ -25,23 +25,23 @@
 
     <img id="logo" src="./images/logo1.png" height="80">
     <a href="index.html" class="btn btn-sm animated-button gibson-one">Home</a>
-    <div class="glitch" data-text="Register" style="top:-20%;left:45%;">
-      Register
+    <div class="glitch" data-text="Events" style="top:-20%;left:45%;">
+      Events
     </div>
 
 	 <div class="notm" style="position: fixed; top:37.5%; height: 100%; width: 100%;">
-      <div class="arc_reactor">
-        <div class="case_container">
-          <div class="e7">
-            <div class="semi_arc_3 e5_1">
-              <div class="semi_arc_3 e5_2">
-                <div class="semi_arc_3 e5_3">
-                  <div class="semi_arc_3 e5_4">
-                  </div>
+    <div class="arc_reactor">
+      <div class="case_container">
+        <div class="e7">
+          <div class="semi_arc_3 e5_1">
+            <div class="semi_arc_3 e5_2">
+              <div class="semi_arc_3 e5_3">
+                <div class="semi_arc_3 e5_4">
                 </div>
               </div>
             </div>
-            <div class="core2"></div>
+          </div>
+          <div class="core2"></div>
           </div>
           <ul class="marks">
             <li></li><li></li><li></li><li></li><li></li><li></li>
@@ -59,24 +59,35 @@
       </div>
     </div>
 
-    <div id="progress"></div>
-    <div class="center">
-      <div id="register">
-
-        <i id="progressButton" class="fas fa-arrow-right next"></i>
-
-        <div id="inputContainer">
-          <input id="inputField" required autofocus />
-          <label id="inputLabel"></label>
-          <div id="inputProgress"></div>
-        </div>
-      </div>
+    <div class="form">
+      <form >
+          <h2>Log In</h2>
+          <p type="Username:"><input type="text" placeholder="Write your User Name here.."></input></p>
+          <p type="Password:"><input type="password" placeholder="Enter your Password.."></input></p>
+          <button>Log In</button>
+          <div>
+            <span class="fa fa-phone"></span>+91 6397931192
+            <span></span> Prakhar Varshnay
+            <br>
+            <span class="fa fa-phone"></span>+91 7982745634
+            <span></span> Piyush Mishra
+          </div>
+        </form>
     </div>
+    
 
 
-  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-  <script  src="js/index.js"></script>
-  <script  src="js/register.js"></script>
+
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+	<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+	<script  src="js/index.js"></script>
+  <script  src="js/signup.js"></script>
 
   
 
