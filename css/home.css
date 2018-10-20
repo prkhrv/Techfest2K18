@@ -1,4 +1,7 @@
-
+@font-face{
+  font-family: 'aven';
+  src: url('../fonts/a3.ttf');
+}
 a.animated-button{
 	position: absolute;
 	top:-3%;
@@ -6,6 +9,7 @@ a.animated-button{
 	height:10px;
 	width:100px;
 	line-height: 20px;
+	font-family: aven;
 }
 a.animated-button:link, a.animated-button:visited {
 	position: relative;

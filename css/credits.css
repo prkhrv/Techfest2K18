@@ -1,0 +1,17 @@
+.credits{
+  border : 2px solid transparent;
+  padding:2%;
+  border-radius:8px;box-shadow:0 0 40px -10px #000;
+  position: absolute;
+  bottom:0%;
+  width:95.5%;
+  font-size:20px;
+  background:rgba(85,91,124,0.5);
+  font-family: aven;
+  text-align: center; 
+  font-size:10px;
+}
+.credits a{
+  text-decoration:none;
+  color:rgba(2, 254, 255, 0.5); 
+}

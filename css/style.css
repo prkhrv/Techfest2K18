@@ -75,6 +75,7 @@ div[class*=container] {
   height: 64px;
   line-height: 64px;
   transition: all 0.3s;
+  font-family: aven;
   span {
     transition: all 0.3s;
     tranform: scale(1, 1);
@@ -200,42 +201,42 @@ div[class*=container] {
     /* For mobile phones: */
     .first-button {
       position:absolute;
-      top:25%;
+      top:15%;
       left:0%;
       text-align: center;
     }
 
     .second-button {
       position:absolute;
-      top:40%;
+      top:27.5%;
       left:0%;
       text-align: center;
     }
 
     .third-button {
       position:absolute;
-      top:55%;
+      top:40%;
       left:0%;
       text-align: center;
     }
 
     .fourth-button {
       position:absolute;
-      top:70%;
+      top:52.5%;
       left:0%;
       text-align: center;
     }
 
     .fifth-button {
       position:absolute;
-      top:85%;
+      top:65%;
       left:0%;
       text-align: center;
     }
 
     .sixth-button {
       position:absolute;
-      top:100%;
+      top:77.5%;
       left:0%;
       text-align: center;
     }
@@ -244,13 +245,16 @@ div[class*=container] {
   position: relative;
   color: white;
   width: 128px;
-  height: 32px;
+  height: 64px;
   line-height: 32px;
   transition: all 0.3s;
+  font-family: aven;
+
   span {
     transition: all 0.3s;
     tranform: scale(1, 1);
   }
+
 }
 
 .btn::before, .btn::after {
@@ -310,8 +314,8 @@ div[class*=container] {
   animation-duration: 3s;
 }
 .btn-two:hover::after, .btn-two:hover::before {
-  left: 48px;
-  width: 32px;
+  left: 32px;
+  width: 64px;
   
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -338,3 +342,20 @@ div[class*=container] {
     }
 }
 
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .glitch {
+      color: white;
+      font-size: 15px;
+      font-family: aven;
+      position: absolute;
+      text-transform: uppercase;
+      left: 30% !important;
+     top: 5% !important;
+    }
+    #logo{
+      height: 70px;
+    }
+}
